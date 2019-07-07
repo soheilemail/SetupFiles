@@ -1,0 +1,9 @@
+# pip3 install -r PyInstallPackages.txt
+#
+#
+#
+
+psycopg2
+requests
+urllib3
+django
