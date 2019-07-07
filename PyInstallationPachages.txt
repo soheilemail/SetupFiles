@@ -1,0 +1,9 @@
+# asdvcasdvsadvsavd
+# sdvasdvsadvsadvsadvasdvasdvasdv
+
+psycopg2
+requests
+urllib3
+django
+
+# asdvcasdvsadvsavd
