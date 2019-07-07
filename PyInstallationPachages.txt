@@ -1,9 +1,9 @@
-# asdvcasdvsadvsavd
-# sdvasdvsadvsadvsadvasdvasdvasdv
+# pip3 install -r PyInstallationPachages.txt
+#
+#
+#
 
 psycopg2
 requests
 urllib3
 django
-
-# asdvcasdvsadvsavd
