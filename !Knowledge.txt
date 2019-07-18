@@ -12,6 +12,8 @@ Keyword: samba ubuntu
 http://www.ubuntuboss.com/how-to-set-up-windows-file-shares-in-ubuntu-18-04-with-samba/
 
 ******************** Backup All Pg Databases ************************
+Windows:  pg_dumpall -U postgres > c:\AllPgDatabases.Backup
+
 sudo su - postgres
 pg_dumpall > /mnt/share1/AllPgDatabases.Backup
 
