@@ -11,7 +11,7 @@
 Keyword: samba ubuntu
 http://www.ubuntuboss.com/how-to-set-up-windows-file-shares-in-ubuntu-18-04-with-samba/
 
-******************** Backup All Pg Databases ************************
+******************** Backup All Pg Databases *******************
 Windows Backup:     pg_dumpall -U postgres > c:\AllPgDatabases.Backup
        Restore:     psql -U postgres -f C:\AllPgDatabases.Backup postgres
 
@@ -23,3 +23,6 @@ Linux:   sudo su - postgres
 
              2.Multi Database:   psql -f /mnt/share1/AllPgDatabases.Backup postgres
 
+*****************************************************************
+Solve PlPython3u Problem in Postgres 11 :   Copy Python.dll into X:\..\Postgresql\xx\lib & rename to Python36.dll
+*****************************************************************
