@@ -19,7 +19,8 @@ Windows Backup:     pg_dumpall -U postgres > c:\AllPgDatabases.Backup
        Restore:     psql -U postgres -f C:\AllPgDatabases.Backup postgres
 
 Linux:   sudo su - postgres
-         pg_dumpall > /mnt/share1/AllPgDatabases.Backup
+         pg_dumpall > /mnt/AllPgDatabases.Backup
+         
          Restore Database:
              1.Database:         createdb -T template0 restored_database
                                  psql restored_database < database.bak
