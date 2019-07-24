@@ -11,6 +11,9 @@
 Keyword: samba ubuntu
 http://www.ubuntuboss.com/how-to-set-up-windows-file-shares-in-ubuntu-18-04-with-samba/
 
+****************** Set password in Postgres  ********************
+https://stackoverflow.com/questions/7695962/postgresql-password-authentication-failed-for-user-postgres
+
 ******************** Backup All Pg Databases *******************
 Windows Backup:     pg_dumpall -U postgres > c:\AllPgDatabases.Backup
        Restore:     psql -U postgres -f C:\AllPgDatabases.Backup postgres
