@@ -27,5 +27,10 @@ Linux:   sudo su - postgres
              2.Multi Database:   psql -f /mnt/share1/AllPgDatabases.Backup postgres
 
 *****************************************************************
+Solve PlPython3u language Problem in Postgres 11 (Linux): 
+                    1-reboot Linux
+                    2-sudo apt-get update
+                    3-sudo apt-get install postgresql-plpython3-11
+                    
 Solve PlPython3u language Problem in Postgres 11 (win): Download Python36.dll (64b) & Copy into X:\..\Postgresql\xx\lib
 *****************************************************************
